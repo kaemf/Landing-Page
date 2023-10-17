@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Challenge</title>
+
+    <link rel="stylesheet" href="./data/assets/style.css">
+</head>
+<body>
+    <div class="face">
+        <div class="text-hello-content">
+            <div class="title-fa"></div>
+            <div class="desc-fa"></div>
+        </div>
+        <div class="iphone-macket">
+            <div class="iphone-screen"></div>
+        </div>
+    </div>
+
+    <div class="review-rating">
+        <div class="feedback">
+            <div count="3" class="rating"></div>
+            <div class="text-feedback">This comment should be as awesome as you. This comment should be</div>
+            <div class="author">Mr. Best Awesome</div>
+        </div>
+        <div class="feedback">
+            <div count="4" class="rating"></div>
+            <div class="text-feedback">This comment should be as awesome as you. This comment should be</div>
+            <div class="author">Mr. Best Awesome</div>
+        </div>
+        <div class="feedback">
+            <div count="5" class="rating"></div>
+            <div class="text-feedback">This comment should be as awesome as you. This comment should be</div>
+            <div class="author">Mr. Best Awesome</div>
+        </div>
+        <div class="feedback">
+            <div count="2" class="rating"></div>
+            <div class="text-feedback">This comment should be as awesome as you. This comment should be</div>
+            <div class="author">Mr. Best Awesome</div>
+        </div>
+    </div>
+
+    <div class="detail-review">
+        <div class="buttons-rating">
+            <div type="initial" class="btn active">
+                <svg class="starpos" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <path d="M15.5 1.54999L10.85 10.85L1.55 12.0125L7.9515 19.1735L6.2 29.45L15.5 24.8L24.8 29.45L23.064 19.1735L29.45 12.0125L20.15 10.85L15.5 1.54999ZM15.5 5.02199L19.127 12.2915L26.3345 13.1905L21.4055 18.7085L22.754 26.691L15.5 23.064L8.246 26.691L9.5945 18.7085L4.6655 13.1905L11.873 12.2915L15.5 5.02199Z" fill="#F8F8F8"/>
+                </svg>
+                <div class="btn-txt"></div>
+            </div>
+            <div type="middle" class="btn unactive">
+                <svg class="starpos" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <path d="M15.5 1.54999L10.85 10.85L1.55 12.0125L7.9515 19.1735L6.2 29.45L15.5 24.8L24.8 29.45L23.064 19.1735L29.45 12.0125L20.15 10.85L15.5 1.54999ZM15.5 5.02199L19.127 12.2915L26.3345 13.1905L21.4055 18.7085L22.754 26.691L15.5 23.064L8.246 26.691L9.5945 18.7085L4.6655 13.1905L11.873 12.2915L15.5 5.02199Z" fill="#F8F8F8"/>
+                </svg>
+                <div class="btn-txt"></div>
+            </div>
+            <div type="high" class="btn unactive">
+                <svg class="starpos" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <path d="M15.5 1.54999L10.85 10.85L1.55 12.0125L7.9515 19.1735L6.2 29.45L15.5 24.8L24.8 29.45L23.064 19.1735L29.45 12.0125L20.15 10.85L15.5 1.54999ZM15.5 5.02199L19.127 12.2915L26.3345 13.1905L21.4055 18.7085L22.754 26.691L15.5 23.064L8.246 26.691L9.5945 18.7085L4.6655 13.1905L11.873 12.2915L15.5 5.02199Z" fill="#F8F8F8"/>
+                </svg>
+                <div class="btn-txt"></div>
+            </div>
+        </div>
+        <div class="detail-review-content-block">
+            <div class="review-content left-section">
+                <div class="review-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+                <div class="review-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+                <div class="review-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+            </div>
+
+            <div class="iphone-macket copy">
+                <div class="iphone-screen"></div>
+            </div>
+
+            <div class="review-content right-section">
+                <div class="review-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+                <div class="review-item">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+                <div class="review-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="48" viewBox="0 0 50 48" fill="none">
+                        <path d="M48.0222 16.6875L33.1452 14.5254L26.4948 1.04299C26.3132 0.67385 26.0144 0.375022 25.6452 0.193381C24.7194 -0.26365 23.5944 0.117209 23.1315 1.04299L16.4812 14.5254L1.60421 16.6875C1.19405 16.7461 0.819049 16.9395 0.53194 17.2324C0.18484 17.5892 -0.0064272 18.0692 0.000164918 18.5669C0.00675703 19.0646 0.210669 19.5393 0.567096 19.8867L11.3308 30.3809L8.7878 45.1992C8.72817 45.544 8.76631 45.8985 8.89791 46.2226C9.02951 46.5467 9.24929 46.8275 9.53234 47.0331C9.81539 47.2387 10.1504 47.3608 10.4993 47.3857C10.8483 47.4106 11.1972 47.3372 11.5065 47.1739L24.8132 40.1778L38.1198 47.1739C38.4831 47.3672 38.905 47.4317 39.3093 47.3614C40.3288 47.1856 41.0144 46.2188 40.8386 45.1992L38.2956 30.3809L49.0593 19.8867C49.3523 19.5996 49.5456 19.2246 49.6042 18.8145C49.7624 17.7891 49.0476 16.8399 48.0222 16.6875ZM33.7663 28.9043L35.8815 41.2266L24.8132 35.4141L13.7448 41.2324L15.8601 28.9102L6.90694 20.1797L19.2819 18.3809L24.8132 7.1719L30.3444 18.3809L42.7194 20.1797L33.7663 28.9043Z" fill="#F8F8F8"/>
+                    </svg>
+                    <div class="title-review">Best of Best</div>
+                    <div class="review-text-content">Best of the best of the best of the best Best of the best of the best of the best</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="about-list">
+        <div class="about-title"></div>
+        <div class="about-description"></div>
+        <div class="about-list-content-block">
+            <div class="about-list-item">
+                <div class="main-part-about-list-item">
+                    <svg class="review-icon" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                        <path d="M20.4999 13.6666V20.5M20.4999 20.5V27.3333M20.4999 20.5H27.3332M20.4999 20.5H13.6666" stroke="#F8F8F8" stroke-width="3.41667" stroke-linecap="round"/>
+                        <path d="M20.5 37.5833C29.9349 37.5833 37.5833 29.9349 37.5833 20.5C37.5833 11.0651 29.9349 3.41666 20.5 3.41666C11.0651 3.41666 3.41666 11.0651 3.41666 20.5C3.41666 29.9349 11.0651 37.5833 20.5 37.5833Z" stroke="#F8F8F8" stroke-width="3.41667"/>
+                    </svg>
+                    <div class="about-list-item-text"></div>
+                </div>
+                <div class="additional-empty-space-animation">
+                    
+                </div>
+            </div>
+            <div class="about-list-item">
+                <div class="main-part-about-list-item">
+                    <svg class="review-icon" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                        <path d="M20.4999 13.6666V20.5M20.4999 20.5V27.3333M20.4999 20.5H27.3332M20.4999 20.5H13.6666" stroke="#F8F8F8" stroke-width="3.41667" stroke-linecap="round"/>
+                        <path d="M20.5 37.5833C29.9349 37.5833 37.5833 29.9349 37.5833 20.5C37.5833 11.0651 29.9349 3.41666 20.5 3.41666C11.0651 3.41666 3.41666 11.0651 3.41666 20.5C3.41666 29.9349 11.0651 37.5833 20.5 37.5833Z" stroke="#F8F8F8" stroke-width="3.41667"/>
+                    </svg>
+                    <div class="about-list-item-text"></div>
+                </div>
+                <div class="additional-empty-space-animation">
+                   
+                </div>
+            </div>
+            <div class="about-list-item">
+                <div class="main-part-about-list-item">
+                    <svg class="review-icon" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                        <path d="M20.4999 13.6666V20.5M20.4999 20.5V27.3333M20.4999 20.5H27.3332M20.4999 20.5H13.6666" stroke="#F8F8F8" stroke-width="3.41667" stroke-linecap="round"/>
+                        <path d="M20.5 37.5833C29.9349 37.5833 37.5833 29.9349 37.5833 20.5C37.5833 11.0651 29.9349 3.41666 20.5 3.41666C11.0651 3.41666 3.41666 11.0651 3.41666 20.5C3.41666 29.9349 11.0651 37.5833 20.5 37.5833Z" stroke="#F8F8F8" stroke-width="3.41667"/>
+                    </svg>
+                    <div class="about-list-item-text"></div>
+                </div>
+                <div class="additional-empty-space-animation">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/event/script.js"></script>
+</body>
+</html>

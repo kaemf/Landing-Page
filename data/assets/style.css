@@ -1,0 +1,346 @@
+:root{
+    --opacity-text-item: 0;
+    --content-text-item: '';
+}
+
+body{background: #FF8659; margin: 0; padding: 0;}
+
+.face{
+    width: 100%;
+    padding: 5% 0px;
+    background: #FF8659;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-fa{
+    width: 300px;
+    color: white;
+    background: rgba(0,0,0,0);
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 65px;
+    letter-spacing: 0.05em;
+    width: 421px;
+}
+
+.title-fa::before{content: "Test Mobile App  For Fitness";}
+
+.desc-fa{
+    width: 445px;
+    height: 50px;
+    margin: 20px 35px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    background: rgba(0,0,0,0);
+    color: #FFFFFF;
+}
+
+.desc-fa::before{content: "Subheading of its finest and greatest people of all time  and greatest people of all time";}
+
+.iphone-macket{
+    background: url(../source/iphone.png);
+    background-size: 100% 100%;
+    margin-left: -20%;
+    width: 225.95px;
+    height: 458px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.iphone-screen{
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 92%;
+    margin-top: 15px;
+    background: white;
+    border-radius: 25px;
+}
+
+.review-rating{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 70px;
+    background: #384450;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.feedback{
+    width: 250px;
+    color: white;
+    font-family: Trebuchet MS;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 70px;
+    gap: 70px;
+}
+
+.text-feedback{
+    margin: 18.78px 0px 14px 0px;
+}
+
+.detail-review{
+    background: #45515D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 79px 0px 46.93px 0px;
+}
+
+.copy{
+    margin: 48.49px 40px;
+    width: 263.357px;
+    height: 533.832px;
+}
+
+.btn{
+    width: 163px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons-rating{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.btn-txt::before{
+    content: 'Awesomeness';
+    color: #FFF;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin-left: -5px;
+}
+
+.starpos{
+    margin-top: -5px;
+}
+
+.btn.active{
+    background: #FF8659;
+    border: 2px solid #FF8659;
+}
+
+.btn.unactive{
+    border: 2px solid #FFF;
+    transition: all .3s ease;
+}
+
+.btn.unactive:hover{
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+.review-content{
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    gap: 31px;
+    margin: 48.49px 0px;
+}
+
+.left-section{
+    text-align: end;
+}
+
+.detail-review-content-block{
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS';
+    color: white;
+    flex-wrap: wrap;
+}
+
+.title-review{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 23.61px 0px 5px 0px;
+}
+
+.review-text-content{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.538%;
+    letter-spacing: 0.65px;
+}
+
+.about-list{
+    font-family: Trebuchet MS;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 73px 0px 182px 0px;
+}
+
+.about-title{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    padding: 22px 0px 37px 0px;
+}
+.about-title::before{
+    content: 'Awesome as always';
+}
+
+.about-description{
+    max-width: 557px;
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+}
+.about-description::before, .about-list-item-text::before{
+    content: 'Always great. Always great. Always great.Always great.Always great. Always great. Always great. Always great. Always gre';
+}
+
+.about-list-item-text::after{
+    transition: all .3s ease;
+    padding-bottom: 100px;
+    opacity: var(--opacity-text-item);
+    content: var(--content-text-item);
+}
+
+.additional-empty-space-animation{
+    max-height: 0px;
+    max-width: 437px;
+    transition: all .3s ease;
+    font-size: 15.422px;
+    transform: translate(0px, -15.422px);
+    color: rgba(0,0,0,0);
+}
+
+.additional-empty-space-animation::before{
+    content: 'at.Always great.Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great. Always great.';
+}
+
+.about-list-item{
+    margin-top: 7px;
+}
+
+.main-part-about-list-item{
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.about-list-item-text{
+    max-width: 437px;
+    margin-left: 9px;
+    font-size: 15.422px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 142.65%;
+    letter-spacing: 0.771px;
+}
+
+.about-list-content-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-icon{
+    transition: all .3s ease;
+    z-index: 2;
+}
+
+.review-icon:hover{
+    transform: rotate(20deg);
+}
+
+@media screen and (max-width: 640px){
+    .review-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .review-icon{
+        min-width: 50px;
+        max-width: 150px;
+    }
+
+    .title-fa{
+        font-size: 21px;
+        width: 180px;
+        line-height: 30px;
+    }
+
+    .desc-fa{
+        font-size: 10px;
+        width: 180px;
+        line-height: 15px;
+    }
+
+    .iphone-macket{
+        width: 143.357px;
+        height: 283.832px;
+        border-radius: 0;
+    }
+
+    .copy{
+        margin: 48.49px 40px;
+        width: 263.357px;
+        height: 533.832px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 900px){
+    .title-fa{
+        font-size: 26px;
+        width: 220px;
+        line-height: 30px;
+    }
+
+    .desc-fa{
+        font-size: 15px;
+        width: 250px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (min-width: 588px) and (max-width: 831px) {
+    .review-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .review-content{
+        padding: 0px 200px;
+    }
+}
